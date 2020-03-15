@@ -1,29 +1,4 @@
-# Anki Notes
-
-## test for Anki
-
-some info.
-
-## What's the Markdown?
-
-Markdown is a lightweight markup language with plain-text-formatting syntax.
-Its design allows it to be converted to many output formats,
-but the original tool by the same name only supports HTML.
-
-## Who created Markdown?
-
-John Gruber created the Markdown language in 2004 in collaboration with
-Aaron Swartz on the syntax.
-
-## YAGNI
-
-Describe this acronym and why it's so important.
-
-%
-
-"You aren't gonna need it" (YAGNI) is a principle of extreme programming
-(XP) that states a programmer should not add functionality until deemed
-necessary.
+# Recursion
 
 ## Base recursion
 
@@ -81,6 +56,27 @@ tailrecsum(0, 15)
 
 Tail calls can be implemented without adding a new stack frame to the call stack. Most of the frame of the current procedure is no longer needed, and can be replaced by the frame of the tail call, modified as appropriate (similar to overlay for processes, but for function calls). The program can then jump to the called subroutine. Producing such code instead of a standard call sequence is called tail call elimination or tail call optimization. Tail call elimination allows procedure calls in tail position to be implemented as efficiently as goto statements
 
-## test more
+[#recursion](./recursion.md) [#algorithms](./algorithms.md)
 
-you know it
+## Media stored in file system
+
+There is ability to write media files in 2 styles: inline and reference.
+
+%
+
+Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
+
+**Inline-style**
+
+With title: ![alt text](./resources/nodejs.png "Node.js logo")
+
+Without title: ![alt text](./resources/nodejs.png)
+
+**Reference-style**
+
+With title: ![alt text][node.js]
+
+Without title: ![alt text][node.js no title]
+
+[node.js]: ./resources/nodejs.png "Recursion understanding"
+[node.js no title]: ./resources/nodejs.png
